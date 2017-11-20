@@ -1,0 +1,81 @@
+/**
+ * author       : liuliyuan
+ * createTime   : 2017/11/18 17:09
+ * description  :
+ */
+@import './custom.less';
+
+@contents: contents;
+.@{contents} {
+  &-wrapper {
+    height: 500px;
+    overflow: hidden;
+    background: @template-nav-bg-color;
+  }
+  > h1 {
+    color: @title-color;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    margin: auto;
+  }
+  > ul {
+    position: relative;
+    top: 25%;
+    padding: 20px 0;
+    > li {
+      width: 25%;
+      padding: 0 4%;
+      display: inline-block;
+      text-align: center;
+      &.queue-anim-leaving {
+        position: relative !important;
+      }
+      .icon {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+      }
+      > h3 {
+        line-height: 32px;
+        margin: 10px auto;
+      }
+      > p {
+        text-align: left;
+        color: #666;
+        display: block;
+        &:hover {
+          color: @template-text-color;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{contents}-wrapper {
+    height: 760px;
+    .@{contents} {
+      width: 90%;
+      max-width: 100%;
+      > h1{
+        top: auto;
+        margin: 40px auto 20px;
+      }
+      > ul {
+        top: auto;
+        padding: 0;
+        > li{
+          width: 100%;
+          max-width: 250px;
+          display: block;
+          margin: 20px auto 40px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
