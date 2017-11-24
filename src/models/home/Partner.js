@@ -42,6 +42,7 @@ class Partner extends Component {
                 tab={(<span
                     className={`${this.props.className}-tag`}
                     id={`${this.props.id}-tagBlock${i}`}
+                    style={{color:'#fff'}}
                 >
           <i><img alt={tag.tag} src={tag.icon} width="100%" /></i>
                     {tag.tag}
@@ -91,7 +92,7 @@ class Partner extends Component {
                         reverseDelay={200}
                         id={`${props.id}-title`}
                     >
-                        合作<span style={{color:'#2257d1'}}>客户</span>
+                        <font color="#fff">合作<span style={{color:'#2257d1'}}>客户</span></font>
                     </TweenOne>
                     <TweenOne
                         animation={{ y: '+=30', opacity: 0, type: 'from', delay: 100 }}
@@ -100,7 +101,7 @@ class Partner extends Component {
                         reverseDelay={100}
                         id={`${props.id}-content`}
                     >
-                        以下企业为近期服务的部分合作客户，排名随机展示不分前后
+                        <font color="#fff">以下企业为近期服务的部分合作客户，排名随机展示不分前后</font>
                     </TweenOne>
                     <TweenOne.TweenOneGroup
                         key="tabs"

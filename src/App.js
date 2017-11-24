@@ -49,8 +49,8 @@ class App extends Component {
           <Banner id="banner" key="2" isMode={this.state.isMode} />,
           <Content id="content" key="3" isMode={this.state.isMode} />,
           <Service id="service" key="4" isMode={this.state.isMode} style={{height:'800px'}} />,
-          <Partner id="partner" key="5" isMode={this.state.isMode} style={{height:'950px'}} />,
-          <About id="about" key="6" isMode={this.state.isMode} style={{height:'900px'}} />,
+          <Partner id="partner" key="5" isMode={this.state.isMode} style={{height:'950px', background: 'rgba(51, 51, 51, 0.95)'}} />,
+          <About id="about" key="6" isMode={this.state.isMode} style={{height:'500px'}} />,
           <Footer id="footer" key="7" isMode={this.state.isMode} />,
         ];
 

@@ -77,7 +77,7 @@ class About extends React.Component {
                         </Col>
                     </Row>
 
-                    <Row gutter={16} className="middle">
+                    {/*<Row gutter={16} className="middle">
                         <Col span={24}>
                             中税税务师事务所China Taxation Agency Co., Ltd.（简称“中税税务”）是一家总部位于中国北京，全国36家子公司，覆盖各省市地区的大型综合性税务服务实体，其历史可追溯到于1997年成立的中税税务代理有限公司，当时隶属于国家税务总局税务学会。截至目前已经拥有20年的专业税务服务经验。
                         </Col>
@@ -87,7 +87,7 @@ class About extends React.Component {
                         <Col span={24}>
                             中税税务师事务所China Taxation Agency Co., Ltd.（简称“中税税务”）是一家总部位于中国北京，全国36家子公司，覆盖各省市地区的大型综合性税务服务实体，其历史可追溯到于1997年成立的中税税务代理有限公司，当时隶属于国家税务总局税务学会。截至目前已经拥有20年的专业税务服务经验。
                         </Col>
-                    </Row>
+                    </Row>*/}
 
                 </div>
             </QueueAnim>
