@@ -46,6 +46,9 @@ class Footer extends Component {
                 },{
                     label:'万科采筑',
                     value:'http://p.vvupup.com/',
+                },{
+                    label:'中税税务',
+                    value:'http://www.zstax.com/',
                 }],
             },
             code:{

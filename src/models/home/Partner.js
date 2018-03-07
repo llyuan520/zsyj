@@ -67,11 +67,11 @@ class Partner extends Component {
         delete props.isMode;
         const childrenData = [
             {
-                tag: { tag: '列表-1', icon: 'https://zos.alipayobjects.com/rmsportal/XnzcslQvRoBHMHd.svg' },
+                tag: { tag: '地产业', icon: 'https://zos.alipayobjects.com/rmsportal/XnzcslQvRoBHMHd.svg' },
                 img: <img alt="合作客户列表" src={banner1} />,
             },
             {
-                tag: { tag: '列表-2', icon: 'https://zos.alipayobjects.com/rmsportal/XnzcslQvRoBHMHd.svg' },
+                tag: { tag: '其他行业', icon: 'https://zos.alipayobjects.com/rmsportal/XnzcslQvRoBHMHd.svg' },
                 img: <img alt="合作客户列表" src={banner2} />,
             }
         ];
